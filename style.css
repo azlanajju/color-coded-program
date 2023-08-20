@@ -10,18 +10,18 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #433e5f;
+  background: #ccc;
 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #55d925;
+  background: #e60d7a;
 
 }
 
 ::selection {
   color: white;
-  background: #6DE60D;
+  background: #e60d7a;
 
 }
 body {
@@ -29,7 +29,7 @@ body {
   overflow: scroll;
 
   width: 100%;
-  background-color: #151320;
+  background-color: #f0f0f0;
 
   height: 100vh;
   font-family: 'Poppins', sans-serif;
@@ -55,7 +55,7 @@ body {
 .sems .active {
 
   animation: glow 1s ease-in-out infinite alternate;
-  color: #6DE60D;
+  color: #e60d7a;
   font-weight: bolder;
 
 
@@ -77,14 +77,14 @@ body {
   font-weight: 1000;
   margin: 0 20px;
   background: none;
-  color: white;
+  color: #000;
   border: none;
   font-size: 20px;
 
 }
 
 .subactiv a {
-  color: #6DE60D;
+  color: #e60d7a;
 
 }
 
@@ -98,11 +98,11 @@ body {
 
 .card {
   margin: 10px;
-  border: 1px solid #6DE60D;
+  border: 1px solid #e60d7a;
 
   margin: 10px;
   margin-top: 20px;
-  background-color: #1c1b29;
+  background-color: #c4c4c4;
 
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
@@ -127,17 +127,17 @@ textarea {
 }
 
 .texts-btn {
-  border: 0.5px solid;
+  border: 0.5px solid #000;
   border-radius: 5px;
   position: absolute;
   cursor: pointer;
   font-weight: bold;
   padding: 1px 4px;
-  color: white;
+  color: #000;
   background-image: linear-gradient(135deg,
-      #1c1b29,
-      #151320,
-      #151320);
+      #fff,
+      #fff,
+      #fff);
 
   margin-left: 60%;
 
@@ -169,7 +169,7 @@ textarea {
 
 .details>h3 {
 
-  color: #ffffff;
+  color: #000;
   font-weight: 600;
   font-size: 18px;
   margin: 10px 0 15px 0;
@@ -185,7 +185,7 @@ textarea {
 .upload a i {
   font-size: 30px;
   color: white;
-  background: #6DE60D;
+  background: #e60d7a;
 
   padding: 8px 10px;
   border-radius: 50%;
@@ -222,13 +222,13 @@ textarea {
   }
 
   .subactiv a {
-    color: #6DE60D;
+    color: #e60d7a;
 
   }
 
   .card {
     margin: 40px;
-    border: 1px solid #6DE60D;
+    border: 1px solid #e60d7a;
 
     color: grey;
 
@@ -248,7 +248,7 @@ textarea {
   .upload a i {
     font-size: 30px;
     color: white;
-    background: greenyellow;
+    background: #e60d7a;
 
     color: grey;
 
@@ -370,7 +370,7 @@ footer span a:hover {
 .popup .popuptext {
   visibility: hidden;
   width: 100px;
-  background-color: #6DE60D;
+  background-color: #e60d7a;
   background: grey;
   background: grey;
   color: #fff;
@@ -394,7 +394,7 @@ footer span a:hover {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #6DE60D transparent transparent transparent;
+  border-color: #e60d7a transparent transparent transparent;
 
   border-color: #333 transparent transparent transparent;
 }
@@ -430,11 +430,11 @@ footer span a:hover {
 
 .q-btn button {
   padding: 5px 10px;
-  border: 1px solid #6DE60D;
+  border: 1px solid #e60d7a;
   border: grey;
   border-radius: 10px;
   background: #151320;
-  color: #6DE60D;
+  color: #e60d7a;
   color: grey;
   transition: 2s;
   box-shadow: 1px 1px 2px 1px rgba(109, 229, 13, 0.7);
@@ -443,7 +443,7 @@ footer span a:hover {
 
 .q-img img {
   border-radius: 20px;
-  border: 1px solid #6DE60D;
+  border: 1px solid #e60d7a;
   border: 1px solid grey;
   display: none;
 }
@@ -454,7 +454,7 @@ footer span a:hover {
 
 .q-imgshow {
   border-radius: 20px;
-  border: 1px solid #6DE60D;
+  border: 1px solid #e60d7a;
   border: 1px solid grey;
   height: 60vh;
   overflow-y: scroll;
@@ -465,11 +465,11 @@ footer span a:hover {
 
 .q-btn2 button {
   padding: 5px 10px;
-  border: 1px solid #6DE60D;
+  border: 1px solid #e60d7a;
   border: 1px solid grey;
   border-radius: 10px;
   background: #151320;
-  color: #6DE60D;
+  color: #e60d7a;
   color: grey;
   transition: 2s;
   box-shadow: 1px 1px 2px 1px rgba(109, 229, 13, 0.7);
@@ -477,7 +477,7 @@ footer span a:hover {
 
 .q-img2 img {
   border-radius: 20px;
-  border: 1px solid #6DE60D;
+  border: 1px solid #e60d7a;
   display: none;
 }
 
@@ -487,7 +487,7 @@ footer span a:hover {
 
 .q-imgshow2 {
   border-radius: 20px;
-  border: 1px solid #6DE60D;
+  border: 1px solid #e60d7a;
   border: 1px solid grey;
   height: 60vh;
   overflow-y: scroll;
